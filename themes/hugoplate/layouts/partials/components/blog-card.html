@@ -30,8 +30,8 @@
       </li>
     </ul>
   {{ end }}
-  <p class="mb-6">{{ .Summary }}</p>
-  <a class="btn btn-outline-primary btn-sm" href="{{ .RelPermalink }}">
+  <p>{{ .Params.description }}</p>
+  <a class="btn btn-outline-primary btn-sm mt-4" href="{{ .RelPermalink }}">
     {{ T "read_more" }}
   </a>
 </div>
